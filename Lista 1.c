@@ -6,8 +6,9 @@
 int main(int argc, char *argv[]) {
 
 
-/*Aula 4 
-	EXERÕCIO 1: Leitura de dois numeros e invers„o deles sem mexer nos dados de leitura*/	
+/*LISTA DE EXERC√çCIOS 1
+EXERCICIO 1:*/
+		
 	/*int primeiro, segundo, aux;
 	
 	printf("Insira o primeiro valor: \n");
@@ -24,7 +25,7 @@ int main(int argc, char *argv[]) {
 	
 	
 	
-/*EXERCÕCIO 2:
+/*EXERC√çCIO 2:
 	
 	double valor;
 	
@@ -34,13 +35,13 @@ int main(int argc, char *argv[]) {
 	printf("O numero em notacao cientifica : %e \n", valor);*/
 		
 	
-/*EXERCÕCIO 3:	
+/*EXERC√çCIO 3:	
 
 	int n, bit64, bit32, bit16, bit8, bit4, bit2, resultado;
 	printf("Insira um numero para a conversao: \n");
-	scanf("%d",&n);                      //& = endereÁo de memoria
+	scanf("%d",&n);                      //& = endere√ßo de memoria
 	
-	bit64 = n % 2;                      //mÛdulo de n por 2
+	bit64 = n % 2;                      //m√≥dulo de n por 2
 	resultado = n/2;
 	
 	bit32 = resultado % 2;                      
@@ -60,11 +61,9 @@ int main(int argc, char *argv[]) {
 	
 	printf("O numero %d em binario = %d%d%d%d%d%d%d", n, resultado%2, bit2, bit4, bit8, bit16,bit32, bit64);*/
 	
+
 	
-	
-	
-	
-/* EXERCÕCIO 4:
+/* EXERC√çCIO 4:
 	
 	float salario,vendas,comissao;
 	
@@ -75,7 +74,7 @@ int main(int argc, char *argv[]) {
 	
 	comissao = salario + (vendas *0.15);
 	
-	printf("O salario total com o bonus de comissao È = %.2f", comissao);*/
+	printf("O salario total com o bonus de comissao √© = %.2f", comissao);*/
 	
 	
 // EXERCICIO 5://
@@ -110,6 +109,16 @@ int main(int argc, char *argv[]) {
 	diasvivo = diasvivo % 30;
 	
 	printf("A sua idade em anos %d, em meses %d, e em dias %d",anos,meses,diasvivo);*/
+
+
+/*EXERCICO 7
+    float volume,raio,pi;
+    pi = 3.14159;
+    printf("Insira o valor do raio da esfera: \n");
+    scanf("%f",&raio);
+
+    volume = (4.0/3) * pi * (raio *raio *raio);
+    printf("O volume da esfera de raio %.3f vale = %.3f",raio,volume);*/
 	
 	
 	
