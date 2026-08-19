@@ -8,7 +8,7 @@ int main()
 //1)//
 
 
-    int anoatual, idade, anonascimento;
+   /* int anoatual, idade, anonascimento;
 
     printf("Digite a sua idade: \n");
     scanf("%d", &idade);
@@ -120,8 +120,10 @@ int main()
     scanf("%d",&c);
 
     maiorAB = (a + b + abs(a - b)) /2;
-    maior = (maiorAB + c + abs(maiorAB - c))/2;
-
+    maior = (maiorAB + c + abs(maiorAB - c))/2;*/
+    
+return 0;
+}
     printf("%d eh o maior \n",maior);
 
 }
