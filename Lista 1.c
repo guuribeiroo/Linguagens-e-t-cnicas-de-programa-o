@@ -59,7 +59,9 @@ EXERCICIO 1:*/
 	bit2 = resultado % 2;                      
 	resultado = resultado /2;
 	
-	printf("O numero %d em binario = %d%d%d%d%d%d%d", n, resultado%2, bit2, bit4, bit8, bit16,bit32, bit64);*/
+	printf("O numero %d em binario = %d%d%d%d%d%d%d", n, resultado%2, bit2, bit4, bit8, bit16,bit32, bit64);
+	//Fiz com você em aula//
+	*/
 	
 
 	
@@ -136,7 +138,9 @@ EXERCICIO 1:*/
 	
 	d = sqrt(p1+p2);
 	
-	printf("A distancia euclidiana = %.3f",d);*/
+	printf("A distancia euclidiana = %.3f",d);
+	//Fiz com você em aula//
+	*/
 	
 
 
