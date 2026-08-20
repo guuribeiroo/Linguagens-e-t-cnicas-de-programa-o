@@ -120,10 +120,8 @@ int main()
     scanf("%d",&c);
 
     maiorAB = (a + b + abs(a - b)) /2;
-    maior = (maiorAB + c + abs(maiorAB - c))/2;*/
+    maior = (maiorAB + c + abs(maiorAB - c))/2;
+    printf("%d eh o maior \n",maior);*/
     
 return 0;
-}
-    printf("%d eh o maior \n",maior);
-
 }
