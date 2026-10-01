@@ -14,7 +14,7 @@ int verifica(int n);
 
 int prova1(){
 	int questao;
-	printf("Número da questao:");
+	printf("NÃºmero da questao:");
 	scanf("%d",&questao);
 {
    
@@ -41,7 +41,7 @@ int prova1(){
     
     n_mochilas = qtd_itens/capacidade;
     
-    printf("Legendario, são %d mochilas para seus itens", n_mochilas);
+    printf("Legendario, sÃ£o %d mochilas para seus itens", n_mochilas);
 	 }
 }
 
@@ -123,7 +123,7 @@ int prova1(){
 
 	void prova2(){
 			int questao;
-	printf("Número da questao:");
+	printf("NÃºmero da questao:");
 	scanf("%d",&questao);
 	
 		if(questao == 0){
@@ -137,7 +137,7 @@ int prova1(){
     n_mochilas = qtd_itens/capacidade;
     resto = qtd_itens%capacidade; 
     
-    printf("Legendario, são %d mochilas para seus itens, e sobram %d itnes", n_mochilas, resto);
+    printf("Legendario, sÃ£o %d mochilas para seus itens, e sobram %d itnes", n_mochilas, resto);
 }    
     
     
@@ -208,7 +208,7 @@ int prova1(){
 }
 	void prova3(){
 			int questao;
-	printf("Número da questao:");
+	printf("NÃºmero da questao:");
 	scanf("%d",&questao);
 	
 		 if(questao == 0){
