@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define pi 3.141592                             //Definindo um valor que n„o È vari·vel
-/* EXERCÕCIOS AULA 3 
+#define pi 3.141592                             //Definindo um valor que n√£o √© vari√°vel
+/* EXERC√çCIOS AULA 3 
 EX) Calculo de de area recebendo o raio*/
 
 int main(int argc, char *argv[]) {
 	
-	float area, raio, r2;                       // declaraÁ„o de variaveis 
+	float area, raio, r2;                       // declara√ß√£o de variaveis 
 	
 	printf("Insira o raio do circulo: \n");       //Print para o usuario colocar o valor do raio
-	scanf("%f", &raio);                         //Leitura do que o usuario colocar o valor para aoperaÁ„o 
-	r2 = raio * raio;                           //poderia ser tbem raio *= raio pois È a mesma operaÁ„o 
+	scanf("%f", &raio);                         //Leitura do que o usuario colocar o valor para aopera√ß√£o 
+	r2 = raio * raio;                           //poderia ser tbem raio *= raio pois √© a mesma opera√ß√£o 
 	area = pi * r2; 
 	printf("O A Area do circulo de raio %f = %f\n", raio, area);
 	
