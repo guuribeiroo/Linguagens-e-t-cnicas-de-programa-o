@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int multDigito(int dig, int valor){
-	return  dig*valor;          //CRIA«√O DE FUN«√O PARA FACILITAR NAS MULTIPLICA«’ES DOS NUMEROS
+	return  dig*valor;          //CRIA√á√ÉO DE FUN√á√ÉO PARA FACILITAR NAS MULTIPLICA√á√ïES DOS NUMEROS
 }
 
 
@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 	
 	int dg1,dg2,dg3,dg4,dg5,dg6,dg7,dg8,dg9,dgv,dgv2,soma,restoI,restoII;
                                                                                 
-	printf("Insira seu cpf com espaÁos: ");
+	printf("Insira seu cpf com espa√ßos: ");
 	scanf("%d %d %d . %d %d %d . %d %d %d - %d %d"
 			,&dg1,&dg2,&dg3,&dg4,&dg5,&dg6,&dg7,&dg8,&dg9,&dgv,&dgv2);
 	
