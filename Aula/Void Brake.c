@@ -27,7 +27,7 @@ void exec2 (){
 }
 void exec8(){
     int horas, minutos, segundos;
-    printf("\nInsira o tempo de duração em segundos: ");
+    printf("\nInsira o tempo de duraÃ§Ã£o em segundos: ");
     scanf("%d", &segundos);
 
     horas = segundos / 3600;
