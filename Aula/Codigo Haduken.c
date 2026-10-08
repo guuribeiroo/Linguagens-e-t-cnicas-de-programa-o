@@ -9,9 +9,9 @@ int main(int argc, char *argv[]) {
 	printf("Insira os valores de A e B: ");
 	scanf("%d %d", &a,&b);
 	
-	if(a>0 && b>0){                             //Conex„o lÛgica E == &&
+	if(a>0 && b>0){                             //Conex√£o l√≥gica E == &&
 		if(a<10 && b<10){
-			if(a==2|| a==3 || a==5 || a==7 && b==2 || b==3 || b==5 || b==7){         //Conex„o lÛgica OU == ||
+			if(a==2|| a==3 || a==5 || a==7 && b==2 || b==3 || b==5 || b==7){         //Conex√£o l√≥gica OU == ||
 				r = (a*b)/2;
 				h = sqrt((pow(a,2)+pow(b,2)));
 				printf("A Area %d da hipotenusa vale: %d",r,h);
