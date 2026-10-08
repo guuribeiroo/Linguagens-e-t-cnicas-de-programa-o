@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*VARI¡VEIS funÁ„o de guardar dados/casas na memoria 
+/*VARI√ÅVEIS fun√ß√£o de guardar dados/casas na memoria 
 -Int- trata-se de numeros inteiros (-infinito ate +infinito)
--Float- trata-se de n˙meros com virgula
+-Float- trata-se de n√∫meros com virgula
 -Char- Valor de uma unica letra/caracter
 -Void- Vazio
 */
@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 	
 	
 	printf("A soma de %f + %f = %f\n", a,b,c );	      /*%d se refere a um identificador de onde o printf vai colocar o dado,o mesmo serve para o float (%f) e o char(%c)*/
-    printf("A subtrÁ„o de %f - %f = %f\n", a,b,d);                                                   	
+    printf("A subtr√ß√£o de %f - %f = %f\n", a,b,d);                                                   	
 	printf("A multiplicacao de %f x %f = %f\n", a,b,e);
 	printf("A divisao de %f / %f = %f\n", a,b,f);
 	return 0;
