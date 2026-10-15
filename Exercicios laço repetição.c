@@ -38,14 +38,28 @@ e conte do primeiro valor inserido, ate o segundo valor,
 com o passo da contagem dado pelo terceiro valor*/
 //exemplo -> 1,8,2 >> contar de 1 a 8, com passo 2 = 3,5,7//
 
-/*int num[3],i;
-    
+/*{
+    int num[3], i;
+
     for(i = 0; i < 3; i++){
-        scanf("%d", &num[i]);   
+        scanf("%d", &num[i]);
     }
-    for( int i = num[0]; i<=num[1]; i = i +num[2]){
-        printf("\n%d", i);
-    }*/
+
+    if(num[2] <= 0){
+        printf("O passo deve ser positivo!");
+    } else {
+        if(num[0] < num[1]){
+            for(int i = num[0]; i <= num[1]; i = i + num[2]){
+                printf("\n%d", i);
+            }
+        } else {
+            for(int i = num[0]; i >= num[1]; i = i - num[2]){
+                printf("\n%d", i);
+            }
+        }
+    }
+
+*/
 
 int ini,fim,passo;
 printf("Insira o valor inicial, final e passo: \n");
