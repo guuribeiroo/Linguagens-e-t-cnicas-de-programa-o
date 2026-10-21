@@ -80,16 +80,23 @@ if(ini<fim){
 //EXERCICIO 2://
 /*Faça um progra,a que receba um numero n e realize a soma
 dos n primeiros termos da sequencia definida 
-[S= 1/2; 1/4; 1/8; 1/16...N]*/
+[S= 1/2; 1/4; 1/8; 1/16...N]
+ int n, i;
+    float termo = 1.0 / 2.0;
+    float soma = 0;
 
+    printf("Digite a quantidade de termos: ");
+    scanf("%d", &n);
 
+    for (i = 0; i < n; i++) {
+        soma = soma + termo;
+        termo = termo / 2;
+    }
 
-
-
+    printf("A soma dos %d é: %.6f\n", termo, soma);*/
 
 //EXERCICIO 3://
-/*Crie um programa que eciba na tela, o triangulo de pascal
-v*/
+/*Crie um programa que exiba na tela, o triangulo de pascal*/
 
 
 
