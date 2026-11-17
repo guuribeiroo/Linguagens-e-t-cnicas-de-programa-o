@@ -96,7 +96,22 @@ dos n primeiros termos da sequencia definida
     printf("A soma dos %d é: %.6f\n", termo, soma);*/
 
 //EXERCICIO 3://
-/*Crie um programa que exiba na tela, o triangulo de pascal*/
+/*Crie um programa que exiba na tela, o triangulo de pascal
+int linhas, i, j;
+    int num;
+
+    printf("Digite a quantidade de linhas: ");
+    scanf("%d", &linhas);
+    for(i = 0; i < linhas; i++) {
+       num = 1;
+         for(j = 0; j <= i; j++) {
+           printf("%d ", num);
+           num = num * (i - j) / (j + 1);
+        }
+
+      printf("\n");
+    }
+*/
 
 
 
