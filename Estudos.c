@@ -32,4 +32,38 @@ int main()
    for(i = 0; i < 11; i++){
     printf("\n%d X %d = %d",n,i,n*i);
    }
+
+//Exercicio 3//
+
+   int soma = 0;
+   int n;
+   while(n!=0){
+    printf("Digite um número (0 para soma): ");
+    scanf("%d",&n);
+    soma += n;
+   }
+
+   printf("Soma: %d",soma);
+
+
+//Exercicio 4//
+  int n;
+  int divisao = 0;
+  int teste = 0;
+  int i = 2;
+
+    scanf("%d",&n);
+    while(i < n && divisao == 0){
+        teste++;
+        if(n % i == 0){
+            divisao = i;
+        }
+        i++;
+    }
+    if(divisao == 0){
+        printf("%d É primo",n);
+    }else{
+        printf("%d Não é primo",n);
+    }
+    printf("\nDivisões testadas: %d",teste);
 */
